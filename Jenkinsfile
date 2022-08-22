@@ -4,7 +4,7 @@ pipeline {
     stages {
          stage('cleanWs') {
             steps {
-                echo 'cleanWS'
+                echo 'clean workspace'
                 //clean workspace before init
                 cleanWs()
             }
