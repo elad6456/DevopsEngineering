@@ -5,7 +5,7 @@ services:
     ports:
       - 8080:8080
   redisdb:
-    image: redis:alpine
+    image: redis:latest
     ports:
       - 6379:6379
   nginx:
