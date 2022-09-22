@@ -1,4 +1,5 @@
 RUN echo "Installing pthon full base image"
+FROM nginx:latest as builder
 WORKDIR /srcode
 COPY ./test ./test
 COPY ./srcode/* ./
