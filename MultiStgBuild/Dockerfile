@@ -1,4 +1,4 @@
-RUN echo "Installing PYTHON LIBS"
+RUN echo "Installing pthon full base image"
 WORKDIR /srcode
 COPY ./test ./test
 COPY ./srcode/* ./
